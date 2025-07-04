@@ -1,0 +1,9 @@
+1. requirements.txt
+      Flask
+      Flask-JWT-Extended
+      Flask-SQLAlchemy
+
+
+i thinks not face any issue if face then generate api using postman
+
+
