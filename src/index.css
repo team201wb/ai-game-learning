@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+}
+
+h1, h2, h3 {
+  margin: 0.5rem 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: #fff;
+}
+
+.hero-img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.features {
+  padding: 3rem 1rem;
+  background: #fff;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.feature-card {
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 180px;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card img {
+  width: 70px;
+  margin-bottom: 0.5rem;
+}
+
+.rewards {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: #f0f8ff;
+}
+
+.badges img {
+  width: 80px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.badges img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+html {
+  scroll-behavior: smooth;
+}
